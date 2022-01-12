@@ -5,9 +5,11 @@ public class Grade {
      * @param scaleGrade the input GPA that the user puts in.
      */
     public void getNumericGrade(double scaleGrade) {
+        //RoundedGPA is the input rounded up to the nearest tens place. 
         double roundedGPA = scaleGrade * 10;
         roundedGPA = Math.round(roundedGPA);
         roundedGPA = roundedGPA / 10;
+        // checks if what roundedGPA is based on what value it is above, and then prints based on that.
         if (roundedGPA == 4.0){
             System.out.println("A");
         } else if (roundedGPA >= 3.7){
