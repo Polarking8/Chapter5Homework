@@ -10,7 +10,6 @@ public class ATM {
      * (3 because java counts from 0)
      * otherwise will block bank card.
      * @param input is the PIN the user gives
-     * @return
      */
     public void enterPinNumber(double input) {
         if (input == 1234) {
